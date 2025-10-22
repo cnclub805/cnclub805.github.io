@@ -1,0 +1,35 @@
+# dependencies
+/node_modules
+
+# production build
+/dist
+
+# local env files
+.env
+.env.local
+.env.*.local
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# misc
+*.local
+*.log
+
+# Optional: lockfiles (only ignore if you're not using them)
+# yarn.lock
+# package-lock.json
+# pnpm-lock.yaml
